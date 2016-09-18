@@ -6,8 +6,8 @@ app = Frame(root)
 app.grid
 
 
-
-LINK = "www.github.com"
+GIT = "git clone "
+LINK = "https://github.com/OpBruteRecruit/OpBruteRecruit.git"
 DEFAULT = "python "
 NEW = "cd ~"
 Path = "/root/OpBruteRecruit-OpBruteRecruit/"
@@ -24,7 +24,7 @@ label2.grid(row = 3, column = 1, sticky = W)
 
 output1 = Text(root,width = 47, height = 1,wrap = NONE)
 output1.grid(row = 4, column = 0, columnspan = 15, sticky = W)
-output1.insert(0.0,LINK)
+output1.insert(0.0,GIT + LINK)
 
 empty2 = Label(root,text = " ")
 empty2.grid(row = 5, column = 1, sticky = W)
