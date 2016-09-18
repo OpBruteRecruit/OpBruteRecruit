@@ -10,6 +10,7 @@ app.grid
 LINK = "www.github.com"
 DEFAULT = "python "
 NEW = "cd ~"
+Path = "/root/OpBruteRecruit-OpBruteRecruit/"
 print"[-] Do not close this terminal, or the programm will crash"
 
 label1 = Label(root,text = "welcome to #opbruterecruit")
@@ -62,7 +63,7 @@ def CAT():
  print"[-] Generating cat.py route"
  print"[-] NOTE: all files must be in  right directory"
  print"[-] for more help go to HELP -> APPS"
- ROUTEcat = (DEFAULT) + "/root/OpBruteRecruit/cat.py"
+ ROUTEcat = (DEFAULT) + (Path) + cat.py"
  output3.delete(0.0,END)
  output3.insert(0.0,ROUTEcat)
 
@@ -70,7 +71,7 @@ def CRUNCHnonselectivenongeneratic():
  print"[-] Generating crunchnonselnongen.py route"
  print"[-] NOTE: all files must be in  right directory"
  print"[-] for more help go to HELP -> APPS"
- ROUTEcrunchnonselectivenongeneratic = (DEFAULT) + "/root/OpBruteRecruit/crunchnonselectivenongeneratic.py"
+ ROUTEcrunchnonselectivenongeneratic = (DEFAULT) + (Path) + crunchnonselectivenongeneratic.py"
  output3.delete(0.0,END)
  output3.insert(0.0,ROUTEcrunchnonselectivenongeneratic)
 
@@ -79,7 +80,7 @@ def CRUNCHnonselectivegeneratic():
  print"[-] Generating crunchnonselgen.py route"
  print"[-] NOTE: all files must be in  right directory"
  print"[-] for more help go to HELP -> APPS"
- ROUTEcrunchnonselectivegeneratic = (DEFAULT) + "/root/OpBruteRecruit/crunchnonselectivegeneratic.py"
+ ROUTEcrunchnonselectivegeneratic = (DEFAULT) + (Path) + crunchnonselectivegeneratic.py"
  output3.delete(0.0,END)
  output3.insert(0.0,ROUTEcrunchnonselectivegeneratic)
 
