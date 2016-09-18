@@ -24,7 +24,7 @@ label2.grid(row = 3, column = 1, sticky = W)
 
 output1 = Text(root,width = 47, height = 1,wrap = NONE)
 output1.grid(row = 4, column = 0, columnspan = 15, sticky = W)
-output1.insert(0.0,GIT + LINK)
+output1.insert(0.0,GIT+LINK)
 
 empty2 = Label(root,text = " ")
 empty2.grid(row = 5, column = 1, sticky = W)
@@ -63,7 +63,7 @@ def CAT():
  print"[-] Generating cat.py route"
  print"[-] NOTE: all files must be in  right directory"
  print"[-] for more help go to HELP -> APPS"
- ROUTEcat = (DEFAULT) + (Path) + cat.py"
+ ROUTEcat = (DEFAULT) + (Path) + "cat.py"
  output3.delete(0.0,END)
  output3.insert(0.0,ROUTEcat)
 
@@ -71,7 +71,7 @@ def CRUNCHnonselectivenongeneratic():
  print"[-] Generating crunchnonselnongen.py route"
  print"[-] NOTE: all files must be in  right directory"
  print"[-] for more help go to HELP -> APPS"
- ROUTEcrunchnonselectivenongeneratic = (DEFAULT) + (Path) + crunchnonselectivenongeneratic.py"
+ ROUTEcrunchnonselectivenongeneratic = (DEFAULT) + (Path) + "crunchnonselectivenongeneratic.py"
  output3.delete(0.0,END)
  output3.insert(0.0,ROUTEcrunchnonselectivenongeneratic)
 
@@ -80,7 +80,7 @@ def CRUNCHnonselectivegeneratic():
  print"[-] Generating crunchnonselgen.py route"
  print"[-] NOTE: all files must be in  right directory"
  print"[-] for more help go to HELP -> APPS"
- ROUTEcrunchnonselectivegeneratic = (DEFAULT) + (Path) + crunchnonselectivegeneratic.py"
+ ROUTEcrunchnonselectivegeneratic = (DEFAULT) + (Path) + "crunchnonselectivegeneratic.py"
  output3.delete(0.0,END)
  output3.insert(0.0,ROUTEcrunchnonselectivegeneratic)
 
