@@ -6,7 +6,7 @@ app.grid
 
 
 GIT = "git clone "
-LINK = "www.github.com"
+LINK = "https://github.com/OpBruteRecruit/OpBruteRecruit.git"
 DEFAULT = "python "
 NEW = "cd ~"
 print"[-] Do not close this terminal, or the programm will crash"
@@ -17,7 +17,7 @@ label1.grid(row = 1, column = 1, sticky = W)
 empty1 = Label(root,text = " ")
 empty1.grid(row = 2, column = 1, sticky = W)
 
-label2= Label(root,text = "FOR UPDATES COPY & PASTE TO NEW TERMINAL: ")
+label2= Label(root,text = "FOR UPDATES GO TO DEFAULT -> UPDATE: ")
 label2.grid(row = 3, column = 1, sticky = W)
 
 output1 = Text(root,width = 47, height = 1,wrap = NONE)
@@ -135,7 +135,18 @@ def KALIdefaults():
  
  rootkali.mainloop()
 
+def UPDATE():
+ rootupdate= Tk()
+ rootupdate.title("Kali/update")
+ appupdate = Frame(rootupdate)
+ appupdate.grid
 
+ print"[-] starting kali/update"
+
+ labelkali1 = Label(rootupdate,text = "to update follow stepss:\n \n1. COPY the update link at start screen of the main menu\n \n2.open folders move the folder OpBruteRecruit to Desktop\n \n3. PASTE update link into terminal & press ENTER\n \nsystem update:\n \ntype into terminal:\n \napt-get update && apt-get upgrade")
+ labelkali1.grid(row = 1, column = 1, sticky = W)
+ 
+ rootupdate.mainloop()
 '''
 helpmenu commands
 '''
@@ -218,7 +229,7 @@ submenu.add_command(label = "Torshammer: DDOS ATTACKS 3ps)",command=TorsHammer)
 
 
 defaultsmenu.add_command(label = "kali linux",command=KALIdefaults)
-
+defaultsmenu.add_command(label = "update",command=UPDATE)
 
 helpmenu.add_command(label = "terminal",command=HELPterminal)
 helpmenu.add_command(label = "Copy & Paste",command=HELPcopypaste)
