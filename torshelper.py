@@ -105,7 +105,7 @@ empty4 = Label(root, text=" ")
 empty4.grid(row = 14, column = 0)
 
 #seventh label
-label7 = Label(root, text="for tor option you must have tor)\n \n copy & paste:")
+label7 = Label(root, text="for tor option you do not need  tor installed)\n \n copy & paste:")
 label7.grid(row = 15, column = 0)
 
 #output
